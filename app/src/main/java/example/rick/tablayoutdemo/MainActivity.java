@@ -27,9 +27,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
 
         mTabs = (android.support.design.widget.TabLayout) findViewById(R.id.tabs);
-        mTabs.addTab(mTabs.newTab().setText("Tab 1"));
-        mTabs.addTab(mTabs.newTab().setText("Tab 2"));
-        mTabs.addTab(mTabs.newTab().setText("Tab 3"));
+        //mTabs.addTab(mTabs.newTab().setText("Tab 1"));
+        //mTabs.addTab(mTabs.newTab().setText("Tab 2"));
+        //mTabs.addTab(mTabs.newTab().setText("Tab 3"));
         mTabs.setTabMode(TabLayout.MODE_SCROLLABLE);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
